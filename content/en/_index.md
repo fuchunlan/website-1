@@ -19,9 +19,12 @@ section1:
       link: /
       class: apply-btn
   carouselItems:
-    - image: /images/home/top-right-1.jpg
-    - image: /images/home/top-right-2.jpg
-    - image: /images/home/top-right-3.jpg
+  carouselItems:
+    - image: /images/home/top-right-en-1.png
+    - image: /images/home/top-right-en-2.png
+    - image: /images/home/top-right-en-3.png
+    - image: /images/home/top-right-en-4.png
+    - image: /images/home/top-right-en-5.png
 
 tabs:
   children:
@@ -116,7 +119,7 @@ section5:
     title: Front End
     project: KubeSphere Console
     children:
-      - icon: /images/home/mobx.jpg
+      - icon: /images/home/kube-design.jpg
       - icon: /images/home/koa.jpg
       - icon: /images/home/react.png
 
@@ -125,9 +128,7 @@ section5:
     project: KubeSphere System
     group:
       - name: API Server
-      - name: API Gateway
       - name: Controller Manager
-      - name: Account Service
 
 section6:
   title: End User Community
@@ -198,7 +199,6 @@ section7:
 section8:
   title: ​​Stay True to Open Source, Keep Contributing to Cloud Native
   content: As a pioneer in enterprise-grade Kubernetes platforms, KubeSphere has driven innovation in multi-cluster management, visualized O&M, unified observability, and enterprise-grade DevOps integration, promoting the widespread adoption and implementation of Kubernetes in corporate environments. Meanwhile, the KubeSphere community has incubated open-source projects, such as KubeKey, OpenELB, and Fluent Operator, and has collaborated deeply with ecosystems like Grafana, Loki, and Higress.
-  注意加 <br/>
   children:
     - name: KubeKey
       icon: /images/home/kube-key.svg
